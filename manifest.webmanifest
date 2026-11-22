@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "HIBIKI Music App",
+  "short_name": "HIBIKI",
+  "description": "Ton espace musical personnel.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080b16",
+  "theme_color": "#080b16",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
