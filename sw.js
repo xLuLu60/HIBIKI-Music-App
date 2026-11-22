@@ -1,5 +1,5 @@
-const CACHE = 'hibiki-15-shell-v1';
-const SHELL = ['./', './index.html', './styles.css', './src/app.js', './src/storage.js', './src/auth.js', './manifest.webmanifest', './assets/icon.svg'];
+const CACHE = 'hibiki-15-shell-v2';
+const SHELL = ['./', './index.html', './styles.css', './src/app.js', './src/storage.js', './src/auth.js', './src/search/search-ui.js', './src/search/search-engine.js', './src/search/search-normalizer.js', './src/search/search-ranking.js', './src/search/search-cache.js', './src/search/providers/library.js', './src/search/providers/youtube.js', './src/search/providers/soundcloud.js', './src/search/providers/jamendo.js', './manifest.webmanifest', './assets/icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
 });
